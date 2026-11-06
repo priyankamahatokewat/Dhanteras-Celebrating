@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>शुभ धनतेरस – Happy Dhanteras Celebration</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Playfair+Display:ital@1&family=Tiro+Devanagari+Hindi&family=Yatra+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Shared SVG gradients used by the ornaments -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff0b0"/><stop offset=".5" stop-color="#f5b82e"/><stop offset="1" stop-color="#a8680a"/></linearGradient>
+<linearGradient id="lot" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#ffd45e"/><stop offset="1" stop-color="#ff7fa0"/></linearGradient>
+</defs></svg>
+    <script src="script.js" defer></script>
+
+<div class="rays" aria-hidden="true"></div>
+<div class="mandala" id="mandala" aria-hidden="true"></div>
+<div class="ambient" id="amb" aria-hidden="true"></div>
+<canvas id="fx" aria-hidden="true"></canvas>
+<div id="words" aria-hidden="true"></div>
+
+<main class="stage">
+  <p class="hi sweep" lang="hi">🪔 शुभ धनतेरस 🪔</p>
+  <h1 class="g3d" data-t="HAPPY DHANTERAS">HAPPY DHANTERAS</h1>
+  <p class="en">May Goddess Lakshmi bless your life with endless wealth, good health, happiness, success, peace, and prosperity.</p>
+  <p class="hi2" lang="hi">तपाईंको जीवनमा सुख, समृद्धि, धन-सम्पत्ति, ऐश्वर्य, वैभव र आनन्दको वर्षा होस्। </p>
+  <div class="orn" id="orn" aria-hidden="true"></div>
+  <div class="btns">
+    <button data-a="celebrate" type="button">✨ Celebrate Now</button>
+    <button data-a="light" type="button">🪔 Light the Diyas</button>
+    <button data-a="bless" type="button">💰 Receive Blessings</button>
+    <button data-a="happy" type="button" class="alt">❤️ Share Happiness</button>
+  </div>
+  <p class="msg" id="msg" aria-live="polite"></p>
+  <footer class="foot">
+    <p>May this Dhanteras bring endless prosperity, happiness, and divine blessings into your life.</p>
+    <p lang="hi">शुभ धनतेरस! मंगलमय जीवन!</p>
+  </footer>
+</main>
+
+<button id="music" class="music" type="button" aria-label="Toggle festive music" aria-pressed="false">🔇</button>
+<div class="toast" id="toast" role="status"></div>
+<div class="intro" id="intro" aria-hidden="true"><i></i></div>
+<div class="frame" aria-hidden="true"></div>
+<script src="script.js"></script>
+</body>
+</html>
