@@ -5,6 +5,20 @@ A cinematic, full-screen Dhanteras greeting experience built with **HTML5, CSS3 
 Open it and you get a dark maroon festival night: a golden light blooms from the centre, 100+ clay diyas flicker and glow, blessing words float across the sky, golden Lakshmi coins rain down, and a rotating rangoli mandala glows behind a 3D golden "HAPPY DHANTERAS" headline.
 
 Keep the three files in the same folder.
+## Project Screenshots
+
+### Celebrating
+![Celebrating](Celebrating/celebrating.png)
+
+### Blessing
+![Diyalighting](Diya_lighting/diyalighting.png)
+
+
+###Blessing
+![Blessing](Blessing/llessing.png)
+
+###Blessing
+![Dhanteras](Dhanteras2/dhanteras2g.png)
 
 ## 🚀 Run it
 
